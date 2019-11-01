@@ -17,6 +17,10 @@ namespace BerlinClock.Classes
         public Color? LampColor { get; private set; }
 
         //public bool IsLit { get; set; }
+        
+        //another potential property, for representing the lamp differently
+        //For examply - this could be used in UI's 
+        //public Shape LampShape { get; set; }
 
         public override string ToString()
         {
